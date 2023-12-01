@@ -1,0 +1,31 @@
+{
+  "name": "@lucasgomesagacode/angular-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/lucasgomesagacode-angular-lib.mjs",
+  "es2020": "fesm2020/lucasgomesagacode-angular-lib.mjs",
+  "esm2020": "esm2020/lucasgomesagacode-angular-lib.mjs",
+  "fesm2020": "fesm2020/lucasgomesagacode-angular-lib.mjs",
+  "fesm2015": "fesm2015/lucasgomesagacode-angular-lib.mjs",
+  "typings": "lucasgomesagacode-angular-lib.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./lucasgomesagacode-angular-lib.d.ts",
+      "esm2020": "./esm2020/lucasgomesagacode-angular-lib.mjs",
+      "es2020": "./fesm2020/lucasgomesagacode-angular-lib.mjs",
+      "es2015": "./fesm2015/lucasgomesagacode-angular-lib.mjs",
+      "node": "./fesm2015/lucasgomesagacode-angular-lib.mjs",
+      "default": "./fesm2020/lucasgomesagacode-angular-lib.mjs"
+    }
+  },
+  "sideEffects": false
+}
